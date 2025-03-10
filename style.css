@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Rounded MT Bold", "Poppins", sans-serif;
+}
+body{
+    background: 
+        linear-gradient(130deg, #4b4ee2ea, #a647e6),
+        linear-gradient(90deg, #1f1e1d, #031e92);
+        color: white;
+}

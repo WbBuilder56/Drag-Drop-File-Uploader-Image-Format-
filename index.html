@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag&Drop File Uploader</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head-section">
+            <h1>Upload Files</h1>
+            <p>Upload Images you want to share with your team</p>
+        </div>
+        <div class="drop-section">
+            <div class="col">
+                <div class="cloud-icon">
+                    <img src="icons/cloud-arrow-up-icon.png" alt="Upload-icon">
+                </div>
+                <span>Drag & Drop your files here</span>
+                <span>OR</span>
+                <button class="file-selector">Browse Files</button>
+                <input type="file" name="files" class="file-input" multiple>
+            </div>
+            <div class="col">
+                <div class="drop-here">Drop Here</div>
+            </div>
+        </div>
+        <div class="list-section">
+            <h4 class="list-title">uploaded Files</h4>
+            <div class="list">
+                <li class="in-progress">
+                    <div class="col">
+                        <img src="icons/Image-icon.jpg" alt="image-icon">
+                    </div>
+                    <div class="col">
+                        <div class="file-name">
+                            <div class="name">File Name here</div>
+                            <span>50%</span>
+                        </div>
+                        <div class="file-progress">
+                            <span></span>
+                        </div>
+                        <div class="file-size">2MB</div>
+                    </div>
+                    <div class="col">
+                        <img src="icons/icons8-cross-30.png" class="cross" alt="cross-icon">
+                        <img src="icons/icons8-tick-30.png" class="tick" alt="cross-icon">
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
