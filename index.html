@@ -8,34 +8,35 @@
 </head>
 <body>
     <div class="container">
-        <div class="head-section">
-            <h1>Upload Files</h1>
+        <div class="header-section">
+            <h2>Upload Images</h2>
             <p>Upload Images you want to share with your team</p>
         </div>
         <div class="drop-section">
             <div class="col">
                 <div class="cloud-icon">
-                    <img src="icons/cloud-arrow-up-icon.png" alt="Upload-icon">
+                    <img src="icons/cloud-upload-icon.jpg" alt="Upload-icon">
                 </div>
-                <span>Drag & Drop your files here</span>
+                <span>Drag & Drop your images here</span>
                 <span>OR</span>
-                <button class="file-selector">Browse Files</button>
-                <input type="file" name="files" class="file-input" multiple>
+                <button class="file-selector">Browse Images</button>
+                <input type="file" name="files" class="file-selector-input" multiple accept="image/png, image/jpeg, image/jpg">
             </div>
             <div class="col">
                 <div class="drop-here">Drop Here</div>
             </div>
         </div>
         <div class="list-section">
-            <h4 class="list-title">uploaded Files</h4>
+            <h4 class="list-title">Uploaded Images</h4>
             <div class="list">
-                <li class="in-progress">
+                <!-- <li class="in-prog">
                     <div class="col">
-                        <img src="icons/Image-icon.jpg" alt="image-icon">
+                        <img src="icons/Image-icon.jpg" width="40px"
+                        height="40px" alt="image-icon">
                     </div>
                     <div class="col">
                         <div class="file-name">
-                            <div class="name">File Name here</div>
+                            <div class="name">Image Name here</div>
                             <span>50%</span>
                         </div>
                         <div class="file-progress">
@@ -44,12 +45,13 @@
                         <div class="file-size">2MB</div>
                     </div>
                     <div class="col">
-                        <img src="icons/icons8-cross-30.png" class="cross" alt="cross-icon">
-                        <img src="icons/icons8-tick-30.png" class="tick" alt="cross-icon">
+                        <img src="icons/icons8-cross-30.png" width="20px" height="20px" class="cross" alt="cross-icon">
+                        <img src="icons/icons8-tick-30.png" width="20px" height="20px"  class="tick" alt="tick-icon">
                     </div>
-                </li>
+                </li> -->
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
